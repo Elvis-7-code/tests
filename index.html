@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Welcome to My Page</h1>
+    <p>This is a simple HTML document with an external CSS file.</p>
+    <script src="./js/script.js"></script>
+    <script>
+        console.log("This is a script running in the browser.");
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("DOM fully loaded and parsed");
+            const heading = document.querySelector('h1');
+            heading.style.color = 'blue';
+            heading.textContent = 'Hello, World!';      
+        console.log("Heading text changed to 'Hello, World!'")
+
+        console.log("Heading color changed to blue");
+        console.log("Script executed successfully");    
+        console.log("All scripts loaded and executed");
+        console.log("Page is ready for interaction");
+        console.log("You can now interact with the page");
+        console.log("Thank you for visiting!");
+        console.log("Have a great day!");   
+        });
+    </script>
+               
+    <div>
+        <div class="container1">
+         <p>This is a paragraph inside a div element.</p>
+         <p>Feel free to modify the content and styles.</p>
+         <p>Enjoy coding!</p>
+        </div>
+
+        <div class="container2">
+            <p>This is another paragraph inside a different div element.</p>
+            <p>Keep exploring HTML and CSS.</p>
+            <p>Happy coding!</p>
+        </div>
+    </div>    
+        <div class="container3">
+            <p>This is yet another paragraph inside a third div element.</p>
+            <p>Remember to validate your HTML and CSS.</p>
+            <p>Check for any errors or warnings in the console.</p>
+        </div>
+
+</body>
+</html>
